@@ -1,10 +1,17 @@
 <template>
-  <MyModal header="Random aah string moment" :text="text" theme="sale"/>
-  <!-- prop export -->
-  <p>{{title}}</p>
-  <input type="text" ref="name">
+
+  <div id="container">
+    <MyModal header="Random aah string moment" :text="text" theme="sale"/>
+    <TopHeader />
+    <!-- <p>{{title}}</p> -->
+  <!-- <input type="text" ref="name"> -->
   <!-- refs -->
-  <button @click="deviousbutton">make it RED</button>
+  <!-- <button @click="deviousbutton">make it RED</button> -->
+  </div>
+  <TopHeader />
+
+  <!-- prop export -->
+
 
 
 </template>
@@ -32,13 +39,19 @@ export default {
 </script>
 
 <style>
+#container{
+  width: 1000px;
+  height: 2000px;
+  background-color: rgb(231, 209, 96);
+  margin:0 auto;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: rgb(0, 179, 255);
+  box-sizing: border-box;
 }
 p{
   font-size: 50px;

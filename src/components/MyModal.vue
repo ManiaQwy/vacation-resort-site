@@ -2,7 +2,7 @@
     <div class="backdrop" v-if="isvisible">
         <div class="modal" :class="{sale: theme === 'sale'}">
             <div class="x-factor" @click="change"> x</div>
-            <p>Modal or smth idk in the middle of the tutorial</p>
+            <iframe src="https://www.youtube.com/watch?v=hd_MKrvcmFQ" frameborder="0" width="100%" height="400px"></iframe>
             
         </div>
     </div>
@@ -31,19 +31,24 @@
     .backdrop{
         background-color: rgba(0, 0, 0, 0.484);
         width: 100%;
-        height: 1500px;
-        position: absolute;
+        position: fixed;
         margin-top: -60px;
+        justify-content: center;
+        z-index: 1;
+        left: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
         display: flex;
         justify-content: center;
+
     }
     .modal{
         color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         background-color: white;
-        width: 450px;
-        height: 350px;
+        width: 550px;
+        height: 450px;
         border: black solid 2px;
         margin-top: 200px;
         padding: 0 70px;
@@ -52,14 +57,14 @@
         margin-right: 20px;
         float: right;
         font-weight: 700;
-        
+        cursor: pointer;
     }
     .modal p{
         color: aliceblue;
     }
 
     .modal.sale{
-        background-color: rgb(9, 180, 115);
+        background-color: rgb(0, 179, 255);
         
     }
 </style>
