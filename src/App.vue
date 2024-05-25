@@ -3,10 +3,6 @@
   <div id="container">
     <MyModal header="Random aah string moment" :text="text" theme="sale"/>
     <TopHeader />
-    <!-- <p>{{title}}</p> -->
-  <!-- <input type="text" ref="name"> -->
-  <!-- refs -->
-  <!-- <button @click="deviousbutton">make it RED</button> -->
   </div>
   <TopHeader />
 
@@ -44,11 +40,10 @@ export default {
   height: 2000px;
   background-color: rgb(231, 209, 96);
   margin:0 auto;
+  box-sizing: border-box;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color: rgb(0, 179, 255);
   box-sizing: border-box;
@@ -57,8 +52,8 @@ p{
   font-size: 50px;
   font-weight: 700;
 }
-
-.active{
-  background-color: red;
+:focus{
+  outline: none;
 }
+
 </style>

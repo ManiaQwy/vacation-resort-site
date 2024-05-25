@@ -1,8 +1,8 @@
 <template>
     <div class="backdrop" v-if="isvisible">
         <div class="modal" :class="{sale: theme === 'sale'}">
-            <div class="x-factor" @click="change"> x</div>
-            <iframe src="https://www.youtube.com/watch?v=hd_MKrvcmFQ" frameborder="0" width="100%" height="400px"></iframe>
+            <div class="x-factor" @click="change">X</div>
+            <iframe src="https://www.youtube.com/watch?v=hd_MKrvcmFQ" frameborder="0" width="100%" height="425px"></iframe>
             
         </div>
     </div>
@@ -47,17 +47,23 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         background-color: white;
-        width: 550px;
-        height: 450px;
+        width: 700px;
+        height: 500px;
         border: black solid 2px;
         margin-top: 200px;
         padding: 0 70px;
     }
     .x-factor{
-        margin-right: 20px;
+        margin-right: 5px;
         float: right;
         font-weight: 700;
         cursor: pointer;
+        background-color: aliceblue;
+        border: black solid 3px;
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+        padding: 5px
     }
     .modal p{
         color: aliceblue;
