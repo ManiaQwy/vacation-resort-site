@@ -1,10 +1,12 @@
 <template>
 
   <div id="container">
-    <MyModal header="Random aah string moment" :text="text" theme="sale"/>
+    <MyModal />
     <TopHeader />
+    <NavIgation/>
+    <SecTion />
+    <DownFooter /
   </div>
-  <TopHeader />
 
   <!-- prop export -->
 
@@ -13,9 +15,14 @@
 </template>
 <script>
 import MyModal from './components/MyModal.vue'
+import TopHeader from './components/MyModal.vue'
+import SecTion from './components/MyModal.vue'
+import NavIgation from './components/MyModal.vue'
+import DownFooter from './components/MyModal.vue'
+
 export default {
   name: 'App',
-  components: { MyModal },
+  components: { MyModal,TopHeader,SecTion,DownFooter,NavIgation },
   data(){
     return{
       title: "we are doing text!?!?!",
@@ -23,30 +30,30 @@ export default {
     }
   },
   methods:{
-    deviousbutton(){
-      console.log(this.$refs.name);
-      this.$refs.name.classList.add('active');
-      this.$refs.name.focus()
-      // using refs to give an object a class
+    // deviousbutton(){
+    //   console.log(this.$refs.name);
+    //   this.$refs.name.classList.add('active');
+    //   this.$refs.name.focus()
+    // using refs to give an object a class
 
     }
   }
-}
+
 </script>
 
 <style>
 #container{
-  width: 1000px;
+  max-width: 1000px;
   height: 2000px;
-  background-color: rgb(231, 209, 96);
+  background-color: darkcyan;
   margin:0 auto;
   box-sizing: border-box;
   overflow: hidden;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
-  background-color: rgb(0, 179, 255);
+  background-color: #ddb;
   box-sizing: border-box;
   
 }
