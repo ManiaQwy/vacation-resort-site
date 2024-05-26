@@ -4,7 +4,7 @@
     <MyModal />
     <TopHeader />
     <NavIgation/>
-    <SecTion />
+    <SecTion80 />
     <DownFooter />
   </div>
 
@@ -16,7 +16,7 @@
 <script>
 import MyModal from './components/MyModal.vue'
 import TopHeader from './components/TopHeader.vue'
-import SecTion from './components/SecTion.vue'
+import SecTion80 from './components/SecTion80.vue'
 import NavIgation from './components/NavIgation.vue'
 import DownFooter from './components/DownFooter.vue'
 
