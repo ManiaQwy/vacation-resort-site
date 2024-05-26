@@ -41,19 +41,19 @@ export default {
   background-color: rgb(231, 209, 96);
   margin:0 auto;
   box-sizing: border-box;
+  overflow: hidden;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   background-color: rgb(0, 179, 255);
   box-sizing: border-box;
+  
 }
 p{
   font-size: 50px;
   font-weight: 700;
 }
-:focus{
-  outline: none;
-}
+
 
 </style>

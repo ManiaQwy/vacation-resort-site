@@ -32,7 +32,7 @@
         background-color: rgba(0, 0, 0, 0.484);
         width: 100%;
         position: fixed;
-        margin-top: -60px;
+        
         justify-content: center;
         z-index: 1;
         left: 0;
@@ -40,6 +40,7 @@
         height: 100%; /* Full height */
         display: flex;
         justify-content: center;
+        
 
     }
     .modal{
