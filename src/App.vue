@@ -5,7 +5,7 @@
     <TopHeader />
     <NavIgation/>
     <SecTion />
-    <DownFooter /
+    <DownFooter />
   </div>
 
   <!-- prop export -->
@@ -15,10 +15,10 @@
 </template>
 <script>
 import MyModal from './components/MyModal.vue'
-import TopHeader from './components/MyModal.vue'
-import SecTion from './components/MyModal.vue'
-import NavIgation from './components/MyModal.vue'
-import DownFooter from './components/MyModal.vue'
+import TopHeader from './components/TopHeader.vue'
+import SecTion from './components/SecTion.vue'
+import NavIgation from './components/NavIgation.vue'
+import DownFooter from './components/DownFooter.vue'
 
 export default {
   name: 'App',
