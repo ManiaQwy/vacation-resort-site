@@ -44,7 +44,7 @@ export default {
 <style>
 #container{
   max-width: 1000px;
-  height: 2000px;
+  height: 1850px;
   background-color: darkcyan;
   margin:0 auto;
   box-sizing: border-box;
