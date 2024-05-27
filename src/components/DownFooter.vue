@@ -1,6 +1,6 @@
 <template>
     <footer>
-        *Zwoleń maj 2020
+        ®Zwoleń maj 2020
     </footer>
 </template>
 <script>

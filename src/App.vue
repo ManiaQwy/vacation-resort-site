@@ -2,7 +2,7 @@
 
   <div id="container">
     <MyModal />
-    <TopHeader />
+    <TopHeader/>
     <NavIgation/>
     <SecTion80 />
     <DownFooter />
@@ -22,22 +22,22 @@ import DownFooter from './components/DownFooter.vue'
 
 export default {
   name: 'App',
-  components: { MyModal,TopHeader,SecTion,DownFooter,NavIgation },
+  components: { MyModal,TopHeader, SecTion80, DownFooter, NavIgation },
   data(){
     return{
       title: "we are doing text!?!?!",
       text: "bonus text to learn binding with props"
-    }
-  },
-  methods:{
+  }}
+}
+  
     // deviousbutton(){
     //   console.log(this.$refs.name);
     //   this.$refs.name.classList.add('active');
     //   this.$refs.name.focus()
     // using refs to give an object a class
 
-    }
-  }
+    
+  
 
 </script>
 
@@ -57,10 +57,7 @@ export default {
   box-sizing: border-box;
   
 }
-p{
-  font-size: 50px;
-  font-weight: 700;
-}
+
 
 
 </style>
