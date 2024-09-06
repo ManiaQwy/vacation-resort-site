@@ -2,7 +2,7 @@
     <div class="backdrop" v-if="isvisible">
         <div class="modal" :class="{sale: theme === 'sale'}">
             <div class="x-factor" @click="change">X</div>
-            <iframe src="https://www.youtube.com/embed/watch?v=hd_MKrvcmFQ" frameborder="0" width="100%" height="425px"></iframe>
+            <iframe width="100%" height="425px" src="https://www.youtube.com/embed/x3kRLbVJtvI?si=psIuA2LBS85D3_vl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
         </div>
     </div>

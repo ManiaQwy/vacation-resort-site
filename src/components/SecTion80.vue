@@ -15,7 +15,7 @@
                 Curabitur nisl diam, auctor nec dolor pulvinar, imperdiet ultricies risus. Nulla augue nisi, pulvinar vitae nibh et, ullamcorper dictum nisi. Fusce in commodo nisl.
             </p>
         </article>
-        <iframe width="1000" height="564" src="https://www.youtube.com/embed/watch?v=SuEkOAayWZo" frameborder="0" title="Youtube Video"></iframe>
+        <iframe width="1000px" height="564px" src="https://www.youtube.com/embed/-9MINsbnlGw?si=tCZ5DbkFn-qMG-Zr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 </template>
 <script>
