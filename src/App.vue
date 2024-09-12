@@ -35,7 +35,7 @@ export default {
     //   this.$refs.name.classList.add('active');
     //   this.$refs.name.focus()
     // using refs to give an object a class
-
+    //}
     
   
 
